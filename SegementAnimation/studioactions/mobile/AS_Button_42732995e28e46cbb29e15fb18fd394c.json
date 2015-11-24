@@ -1,0 +1,21 @@
+{
+    "AS_Button_42732995e28e46cbb29e15fb18fd394c": {
+        "id": "AS_Button_42732995e28e46cbb29e15fb18fd394c",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___20d863c8e109497d91eaec7a222b6445",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "testbuttononclick",
+            "display": "testbuttononclick",
+            "inputparams": [{
+                "name": "widget",
+                "value": "widget"
+            }, {
+                "name": "context",
+                "value": "context"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

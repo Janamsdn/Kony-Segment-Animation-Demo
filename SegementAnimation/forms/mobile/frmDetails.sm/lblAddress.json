@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s6dad682e2fb4e42845eb92adab3e68e",
+    "_text_": "1st Floor,Building No.36,Pheonix,Madhapur,Hitech City,Hyderabad",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "84.21%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "enabled": false,
+    "id": "lblAddress",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "textCopyable": false,
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "67b558a176fd424bb8e5c4f97c355c8b",
+    "name": "kony.ui.Label",
+    "parent": "fcAddress",
+    "pf": "frmDetails",
+    "textcopyable": false,
+    "tooltip": "",
+    "wType": "Label",
+    "widgetalignment": 5,
+    "zindex": 1
+}

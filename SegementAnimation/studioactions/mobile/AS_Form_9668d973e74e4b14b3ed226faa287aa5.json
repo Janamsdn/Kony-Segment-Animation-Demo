@@ -1,0 +1,13 @@
+{
+    "AS_Form_9668d973e74e4b14b3ed226faa287aa5": {
+        "id": "AS_Form_9668d973e74e4b14b3ed226faa287aa5",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__29441ff5362a4893a82f55ffdf556e15",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//setGestureRecogniserToFrmHome();\nremoveRestaurents();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

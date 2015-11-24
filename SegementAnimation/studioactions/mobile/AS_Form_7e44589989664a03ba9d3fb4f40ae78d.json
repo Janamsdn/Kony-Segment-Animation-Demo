@@ -1,0 +1,21 @@
+{
+    "AS_Form_7e44589989664a03ba9d3fb4f40ae78d": {
+        "id": "AS_Form_7e44589989664a03ba9d3fb4f40ae78d",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___721e62c2ff2649328f5433c1f0ba7d40",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setFavoriteRestaurent1",
+            "display": "setFavoriteRestaurent1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__4621c0faff534d7c8cb41e8551e6e89e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setDeleteButtonCallBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

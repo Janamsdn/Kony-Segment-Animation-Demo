@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_bc024898cde84b94b16f917d8ab94faf": {
+        "id": "AS_FlexContainer_bc024898cde84b94b16f917d8ab94faf",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cf728f05792d4c82ac7cf2bdb3ca9f79",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteSegRow",
+            "display": "deleteSegRow",
+            "inputparams": [{
+                "name": "abc",
+                "value": "this"
+            }, {
+                "name": "xyz",
+                "value": "context"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

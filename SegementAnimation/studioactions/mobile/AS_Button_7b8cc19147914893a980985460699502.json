@@ -1,0 +1,15 @@
+{
+    "AS_Button_7b8cc19147914893a980985460699502": {
+        "id": "AS_Button_7b8cc19147914893a980985460699502",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b877ad53975c4b2e9713df7160654f17",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "markAsFavouriteRestaurent",
+            "display": "markAsFavouriteRestaurent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

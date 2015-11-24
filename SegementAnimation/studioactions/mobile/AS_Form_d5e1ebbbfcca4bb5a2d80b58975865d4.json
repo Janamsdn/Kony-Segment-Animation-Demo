@@ -1,0 +1,13 @@
+{
+    "AS_Form_d5e1ebbbfcca4bb5a2d80b58975865d4": {
+        "id": "AS_Form_d5e1ebbbfcca4bb5a2d80b58975865d4",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__6db8a081d0fe4ac9b2af26a482fe98c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setRestaurents();\nonRowDisplayFunction();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

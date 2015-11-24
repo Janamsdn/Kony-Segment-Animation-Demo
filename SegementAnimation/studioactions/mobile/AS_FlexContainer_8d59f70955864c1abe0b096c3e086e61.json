@@ -1,0 +1,13 @@
+{
+    "AS_FlexContainer_8d59f70955864c1abe0b096c3e086e61": {
+        "id": "AS_FlexContainer_8d59f70955864c1abe0b096c3e086e61",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__aa08f75fd1a24d7d86437ea1f63d26fd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "deleteSegRow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

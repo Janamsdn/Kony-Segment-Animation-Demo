@@ -1,0 +1,13 @@
+{
+    "AS_Segment_df46bfdce97f4382bcd85438f80ebb5b": {
+        "id": "AS_Segment_df46bfdce97f4382bcd85438f80ebb5b",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "ADD_SNIPPET__999ec18f8ad249c09284bcee7f857a2f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "showRestaurentDetails1();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

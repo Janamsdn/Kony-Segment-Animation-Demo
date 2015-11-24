@@ -1,0 +1,15 @@
+{
+    "AS_Button_dbf5be30e7b5481ca6c50234170f4002": {
+        "id": "AS_Button_dbf5be30e7b5481ca6c50234170f4002",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___62d4629d1fa146a2a7dffa7255e81155",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setRestaurents",
+            "display": "setRestaurents",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

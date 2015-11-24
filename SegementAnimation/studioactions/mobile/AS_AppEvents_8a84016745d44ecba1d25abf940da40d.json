@@ -1,0 +1,15 @@
+{
+    "AS_AppEvents_8a84016745d44ecba1d25abf940da40d": {
+        "id": "AS_AppEvents_8a84016745d44ecba1d25abf940da40d",
+        "type": "ACTION_SEQUENCE",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7f7d1d2489aa4a128f8bc626fa3e5b05",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setGestureRecogniserToFrmfav",
+            "display": "setGestureRecogniserToFrmfav",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
