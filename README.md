@@ -10,3 +10,4 @@ This Application showcases the animation feature of the segment of Kony Studio.
 # Supported platforms:
 **Mobile**
  * android
+ * iPhone
