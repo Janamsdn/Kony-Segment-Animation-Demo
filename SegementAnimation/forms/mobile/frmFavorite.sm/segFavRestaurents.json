@@ -133,7 +133,8 @@
     },
     "iphone": {
         "psp": {
-            "indicator": "rowselect"
+            "bounces": false,
+            "indicator": "none"
         }
     },
     "isvisible": true,
@@ -151,7 +152,7 @@
     "retainselection": false,
     "rowTemplateId": "a29bcabb4c6c4bb5b6f38a24217a57f4",
     "rowcounter": 2,
-    "rowfocusskin": "sf73da56dc46443ab1168dd77d3a92c3",
+    "rowfocusskin": "s2c3915b90a74d2ca3d165077743a7b5",
     "rowskin": "s1cf81e2c5814641983ca7e23b3eaf61",
     "rowtemplate": "FlexContainerFavorite",
     "screenlevelwidget": false,

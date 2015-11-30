@@ -36,7 +36,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "GalaxyS5",
+    "device": "iPhone6",
     "displayorientation": 1,
     "enabled": false,
     "enabledforidletimeout": false,
@@ -85,13 +85,13 @@
     "orientation": 1,
     "paddinginpixel": false,
     "percent": true,
-    "platform": "android",
+    "platform": "iphone",
     "postshow": "AS_Form_d5e1ebbbfcca4bb5a2d80b58975865d4",
     "preshow": "AS_Form_9668d973e74e4b14b3ed226faa287aa5",
-    "prevDevice": "iPhone5",
-    "prevPlatform": "iphone",
+    "prevDevice": "GalaxyS5",
+    "prevPlatform": "android",
     "retainscrollposition": false,
-    "shellCSS": "and_GalaxyS5",
+    "shellCSS": "iOS_iPhone6",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {

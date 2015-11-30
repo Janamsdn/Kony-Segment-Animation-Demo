@@ -2,21 +2,18 @@ function onRowDisplayFunction(){
   var animConfig = {"duration":0.3,"iterationCount":1,"delay":0,"fillMode":kony.anim.FORWARDS	};
   	//scale
 	var transformProp1 = kony.ui.makeAffineTransform();
-	transformProp1.scale(0.5,0.5); 
+	transformProp1.scale(0.0,0.0); 
 	var transformProp2 = kony.ui.makeAffineTransform();
-	transformProp2.scale(0.75,0.75);
+	transformProp2.scale(0.5,0.5);
 	var transformProp3 = kony.ui.makeAffineTransform();
 	transformProp3.scale(1,1);
 	var animDefinitionOne = {0  : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp1},
-                             50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
+                           //  50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
         					100 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp3}
       						} ;
   	var animDefinition = kony.ui.createAnimation(animDefinitionOne);
 	var finalAnimation = {definition: animDefinition, config: animConfig};
-frmHome.segmentRestaurentList.setAnimations({
-        visible: finalAnimation
-        
-    });
+	frmHome.segmentRestaurentList.setAnimations({visible: finalAnimation});
 //alert("setting onRowDisplay");
   //frmHome.segmentRestaurentList.onRowDisplay=onRowDispListener;
   kony.print("In row display");

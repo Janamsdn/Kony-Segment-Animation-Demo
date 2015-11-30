@@ -18,6 +18,6 @@ function setDeleteButtonCallBack(){
                              var animDefinition = kony.ui.createAnimation(animDefinitionOne);
                              var animConfig = {"duration":0.3,"iterationCount":1,"delay":0,"fillMode":kony.anim.FORWARDS	};
 	var finalAnimation = {definition: animDefinition, config: animConfig};
-   // kony.print("\nrow index:-"+parseInt(rowIndex));
+    kony.print("\nrow index:-"+parseInt(rowIndex));
     frmFavorite.segFavRestaurents.removeAt(rowIndex, 0, finalAnimation);
 }
