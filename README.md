@@ -11,3 +11,5 @@ This Application showcases the animation feature of the segment of Kony Studio.
 **Mobile**
  * android
  * iPhone
+
+**Supported KonyStudio Version:** 7.0
