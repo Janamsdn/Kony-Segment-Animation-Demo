@@ -1,5 +1,5 @@
 # Kony-Segment-Animation
-This Application showcases the animation feature of the segment of Kony Studio.
+This Application showcases the animation feature of the segment of KonyVisualizer.
 
 # To run this app
 
@@ -12,4 +12,4 @@ This Application showcases the animation feature of the segment of Kony Studio.
  * android
  * iPhone
 
-**Supported KonyStudio Version:** 7.0
+**Supported KonyVisualizer Version:** 7.0
