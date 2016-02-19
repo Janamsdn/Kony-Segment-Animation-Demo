@@ -1,10 +1,10 @@
 # Kony-Segment-Animation
-This Application showcases the animation feature of the segment of KonyVisualizer.
+This Application showcases the animation feature of the segment of Kony Visualizer.
 
 # To run this app
 
 1. Download the project
-2. Import project to your Kony IDE.
+2. Import project to your Kony Visualizer.
 3. Build and run the app.
 
 # Supported platforms:
@@ -12,4 +12,4 @@ This Application showcases the animation feature of the segment of KonyVisualize
  * android
  * iPhone
 
-**Supported KonyVisualizer Version:** 7.0
+**Supported Kony Visualizer Version:** 7.0
