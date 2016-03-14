@@ -12,4 +12,4 @@ This Application showcases the animation feature of the segment of Kony Visualiz
  * android
  * iPhone
 
-**Supported Kony Visualizer Version:** 7.0
+**Supported Kony Visualizer Enterprise  Version:** 7.0
