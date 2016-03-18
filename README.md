@@ -3,9 +3,11 @@ This Application showcases the animation feature of the segment of Kony Visualiz
 
 # To run this app
 
-1. Download the project
-2. Import project to your Kony Visualizer.
-3. Build and run the app.
+1. Download the project zip file.
+2. Unzip the project to any folder
+3. Launch Kony Visualizer Enterprise version 7.0.
+4. Import the project by selecting the SegementAnimation folder.
+5. Build and run the app.
 
 # Supported platforms:
 **Mobile**
