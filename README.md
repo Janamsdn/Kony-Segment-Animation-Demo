@@ -1,7 +1,7 @@
 # Kony-Segment-Animation
 This Application showcases the animation feature of the segment.
 
-# To run this app for Kony Visualizer Enterprise:
+** To run this app for Kony Visualizer Enterprise:**
 
 1. Download the project zip file.
 2. Unzip the project to any folder
@@ -9,7 +9,7 @@ This Application showcases the animation feature of the segment.
 4. Import the project by selecting the SegementAnimation folder.
 5. Build and run the app.
 
-To Run This App in Kony Visualizer :
+**To Run This App in Kony Visualizer:**
 
 1. Download the project zip file.
 2. Unzip the project to any folder.
@@ -36,4 +36,4 @@ Cloud :
  * android
  * iPhone
 
-**Supported Kony Visualizer Enterprise  Version:** 7.0
+
