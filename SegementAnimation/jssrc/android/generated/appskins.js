@@ -50,16 +50,13 @@ function skinsInit() {
     slButtonGlossBlue = "slButtonGlossBlue";
     slButtonGlossRed = "slButtonGlossRed";
     slCheckBoxGroup = "slCheckBoxGroup";
-    slDynamicNotificationForm = "slDynamicNotificationForm";
     slFbox = "slFbox";
     slForm = "slForm";
     slImage = "slImage";
     sliPhoneSegmentHeader = "sliPhoneSegmentHeader";
     slLabel = "slLabel";
     slPopup = "slPopup";
-    slStaticNotificationForm = "slStaticNotificationForm";
     slSwitch = "slSwitch";
     slTextBox = "slTextBox";
     slTitleBar = "slTitleBar";
-    slWatchForm = "slWatchForm";
 };

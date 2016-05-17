@@ -1,10 +1,8 @@
 {
     "createdVizVersion": "2.8.0",
     "watchos_longlooknotificationicon": "",
-    "watchos_longlooknotificationicon_42": "",
     "wap_android240_fontsize": "12",
     "mwaddrkey": "",
-    "watchos_notificationcentericon_38": "",
     "createdgaversion": "6.8.0",
     "wap_android640_fontsize": "12",
     "winmobileguidkey": "",
@@ -14,7 +12,6 @@
         }
     },
     "desktopwebbasefontsize": "12",
-    "watchos_shortlooknotificationicon_42": "",
     "wap_spaandroidtab_fontsize": "12",
     "apppackagekey": "",
     "startupformkey": "frmLogin",
@@ -23,14 +20,11 @@
     "isA11yConfigEnabled": false,
     "wap_android480_fontsize": "12",
     "wap_spawindowstab_fontsize": "12",
-    "defaulttheme": "defaultTheme",
     "wap_winphone320_fontsize": "12",
-    "watchos_longlooknotificationicon_38": "",
-    "watchos_notificationcentericon_42": "",
-    "enableactionbar": false,
-    "wap_android360_fontsize": "12",
+    "defaulttheme": "defaultTheme",
     "appmenu": {
         "focusSkin": null,
+        "osVersion": "iOS7",
         "tablet": {
             "data": [
                 {
@@ -67,7 +61,6 @@
                 }
             ]
         },
-        "osVersion": "iOS7",
         "wType": "Appmenu",
         "focusskin": null,
         "osPlatform": "",
@@ -145,6 +138,7 @@
             ]
         }
     },
+    "wap_android360_fontsize": "12",
     "project.type": "js",
     "appversionkey": "1.0.0",
     "mwportkey": "",
@@ -162,7 +156,6 @@
     "wap_android400_fontsize": "12",
     "appaddrkey": "",
     "wap_ip_fontsize": "12",
-    "watchos_shortlooknotificationicon_38": "",
     "watchos_homescreenicon": "",
     "watchos_shortlooknotificationicon": "",
     "appidkey": "SegementAnimation",
@@ -173,21 +166,8 @@
     "konyVizVersion": "2.9.0",
     "appnamekey": "SegementAnimation",
     "APPLICATION_THEME": "default",
-    "wap_android440_fontsize": "12",
     "wap_spaipad_fontsize": "12",
+    "wap_android440_fontsize": "12",
     "wap_spaandroidtabhdpi_fontsize": "12",
-    "nativeContainerProperties": {
-        "isModified": false,
-        "isEnableJSContaineriOS": false,
-        "isEnableJSContainerAndroid": false,
-        "isEnableJSContainer": false
-    },
-    "wap_bb360_fontsize": "12",
-    "wap_spaandroidtabxhdpi_fontsize": "18",
-    "ipadlandscapemodekey": "portrait",
-    "supportedorientations": [
-        "portrait"
-    ],
-    "desktopwebwidthoption": "percentage",
-    "desktopwebaligenmentoption": "Left"
+    "wap_bb360_fontsize": "12"
 }

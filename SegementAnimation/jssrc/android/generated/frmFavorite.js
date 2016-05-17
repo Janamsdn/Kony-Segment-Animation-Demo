@@ -24,9 +24,15 @@ function addWidgetsfrmFavorite() {
         "top": "0%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -42,10 +48,16 @@ function addWidgetsfrmFavorite() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var btnLogout = new kony.ui.Button({
         "focusSkin": "slButtonGlossRed",
@@ -58,10 +70,16 @@ function addWidgetsfrmFavorite() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcTitle.add(
     lblTitle, btnBack, btnLogout);
@@ -114,6 +132,7 @@ function addWidgetsfrmFavorite() {
         "rowFocusSkin": "Copyseg063aebd14801542",
         "rowSkin": "seg2Normal",
         "rowTemplate": FlexContainerFavorite,
+        "screenLevelWidget": false,
         "scrollingEvents": {},
         "sectionHeaderSkin": "sliPhoneSegmentHeader",
         "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
@@ -137,8 +156,12 @@ function addWidgetsfrmFavorite() {
         },
         "width": "100%"
     }, {
+        "containerWeight": 100,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcFrmContainer.add(
     segFavRestaurents);

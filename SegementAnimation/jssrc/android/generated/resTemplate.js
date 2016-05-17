@@ -23,9 +23,13 @@ function initializeresTemplate() {
         "top": "8dp",
         "width": "25%"
     }, {
+        "containerWeight": 100,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var lblResName = new kony.ui.Label({
         "height": "28dp",
@@ -38,9 +42,15 @@ function initializeresTemplate() {
         "width": "79%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -55,9 +65,15 @@ function initializeresTemplate() {
         "width": "79%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -71,9 +87,15 @@ function initializeresTemplate() {
         "width": "95%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });

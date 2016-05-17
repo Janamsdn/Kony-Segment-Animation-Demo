@@ -24,9 +24,15 @@ function addWidgetsfrmHome() {
         "top": "0.20%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -42,10 +48,16 @@ function addWidgetsfrmHome() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var btnLogout = new kony.ui.Button({
         "focusSkin": "sknBtnLogout",
@@ -59,10 +71,16 @@ function addWidgetsfrmHome() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcTitle.add(
     lblTitle, btnFavorites, btnLogout);
@@ -87,6 +105,7 @@ function addWidgetsfrmHome() {
         "rowFocusSkin": "Copyseg0c53932df05f845",
         "rowSkin": "Copyseg087c0d01f53aa47",
         "rowTemplate": fcResDetailfcResDetail,
+        "screenLevelWidget": false,
         "scrollingEvents": {},
         "sectionHeaderSkin": "sliPhoneSegmentHeader",
         "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
@@ -105,8 +124,12 @@ function addWidgetsfrmHome() {
         },
         "width": "100%"
     }, {
+        "containerWeight": 100,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var FlexContainer0ccecc465000a43 = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
@@ -134,10 +157,16 @@ function addWidgetsfrmHome() {
         "top": "0dp",
         "width": "50%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var Button0243bef6030b74d = new kony.ui.Button({
         "focusSkin": "slButtonGlossRed",
@@ -152,10 +181,16 @@ function addWidgetsfrmHome() {
         "width": "50%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     FlexContainer0ccecc465000a43.add(
     Button077b6130fce3d46, Button0243bef6030b74d);

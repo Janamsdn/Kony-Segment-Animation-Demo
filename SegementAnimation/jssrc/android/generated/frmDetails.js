@@ -24,9 +24,15 @@ function addWidgetsfrmDetails() {
         "top": "0%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -42,10 +48,16 @@ function addWidgetsfrmDetails() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var btnLogout = new kony.ui.Button({
         "focusSkin": "sknBtnLogout",
@@ -59,10 +71,16 @@ function addWidgetsfrmDetails() {
         "width": "70dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcTitle.add(
     lblTitle, btnBack, btnLogout);
@@ -90,9 +108,13 @@ function addWidgetsfrmDetails() {
         "top": "0%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var lblResName = new kony.ui.Label({
         "id": "lblResName",
@@ -104,9 +126,15 @@ function addWidgetsfrmDetails() {
         "width": kony.flex.USE_PREFFERED_SIZE,
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -120,9 +148,15 @@ function addWidgetsfrmDetails() {
         "width": "30%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -137,9 +171,15 @@ function addWidgetsfrmDetails() {
         "width": "8%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -182,10 +222,16 @@ function addWidgetsfrmDetails() {
         "width": "62%",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcBtnrate.add(
     btnRate);
@@ -215,10 +261,16 @@ function addWidgetsfrmDetails() {
         "width": "62%",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcBtnFavorite.add(
     btnFavorite);
@@ -273,9 +325,15 @@ function addWidgetsfrmDetails() {
         "top": "0%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -290,9 +348,15 @@ function addWidgetsfrmDetails() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -306,9 +370,15 @@ function addWidgetsfrmDetails() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -337,9 +407,15 @@ function addWidgetsfrmDetails() {
         "top": "0%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -354,9 +430,15 @@ function addWidgetsfrmDetails() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -370,9 +452,15 @@ function addWidgetsfrmDetails() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -401,9 +489,15 @@ function addWidgetsfrmDetails() {
         "top": "0%",
         "width": "50%"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -418,9 +512,15 @@ function addWidgetsfrmDetails() {
         "width": "84.21%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -435,10 +535,16 @@ function addWidgetsfrmDetails() {
         "width": "50dp",
         "zIndex": 10
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     fcAddress.add(
     CopylblCusines0386b0e110fbf40, lblAddress, btnMap);
@@ -452,9 +558,15 @@ function addWidgetsfrmDetails() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });

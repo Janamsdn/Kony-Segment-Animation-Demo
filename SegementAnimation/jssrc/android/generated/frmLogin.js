@@ -22,9 +22,13 @@ function addWidgetsfrmLogin() {
         "top": "10%",
         "width": "100%"
     }, {
+        "containerWeight": 100,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var lblTitle1 = new kony.ui.Label({
         "id": "lblTitle1",
@@ -36,9 +40,15 @@ function addWidgetsfrmLogin() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -52,9 +62,15 @@ function addWidgetsfrmLogin() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -81,9 +97,15 @@ function addWidgetsfrmLogin() {
         "top": "20%",
         "width": "1px"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -98,9 +120,13 @@ function addWidgetsfrmLogin() {
         "width": "12%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var txtBoxUserId = new kony.ui.TextBox2({
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
@@ -118,13 +144,19 @@ function addWidgetsfrmLogin() {
         "width": "82%",
         "zIndex": 1
     }, {
+        "containerHeight": null,
         "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "autoFilter": false,
-        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
         "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
     });
     fcUserId.add(
@@ -152,9 +184,15 @@ function addWidgetsfrmLogin() {
         "top": "20%",
         "width": "1px"
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [1, 1, 1, 1],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "textCopyable": false
     });
@@ -169,9 +207,13 @@ function addWidgetsfrmLogin() {
         "width": "12%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var txtBoxUserPswd = new kony.ui.TextBox2({
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
@@ -189,13 +231,19 @@ function addWidgetsfrmLogin() {
         "width": "82%",
         "zIndex": 1
     }, {
+        "containerHeight": null,
         "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "hExpand": true,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "autoFilter": false,
-        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
         "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
     });
     fcUserPswd.add(
@@ -213,10 +261,16 @@ function addWidgetsfrmLogin() {
         "top": "80%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "displayText": true,
+        "hExpand": true,
+        "margin": [6, 6, 6, 6],
+        "marginInPixel": false,
         "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "vExpand": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {});
     var CheckBoxGroup0b0f5d1875e364d = new kony.ui.CheckBoxGroup({
         "height": "120dp",
@@ -235,9 +289,13 @@ function addWidgetsfrmLogin() {
         "width": "100%",
         "zIndex": 1
     }, {
+        "containerWeight": 100,
         "itemOrientation": constants.CHECKBOX_ITEM_ORIENTATION_VERTICAL,
+        "margin": [0, 0, 0, 0],
+        "marginInPixel": false,
         "padding": [4, 0, 0, 0],
-        "paddingInPixel": false
+        "paddingInPixel": false,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER
     }, {
         "tickedImage": "check_btn_f.png",
         "untickedImage": "check_btn_f.png"
