@@ -40,6 +40,7 @@
     "enabled": false,
     "enabledforidletimeout": false,
     "id": "frmFavorite",
+    "ide_init": "AS_Form_f00e3b0bc2a146b085655cd3fa9800ac",
     "ide_preShow": "AS_Form_7e44589989664a03ba9d3fb4f40ae78d",
     "info": null,
     "initdone": false,

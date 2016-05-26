@@ -1,88 +1,157 @@
-function onRowDisplayFunction(){
-  var animConfig = {"duration":0.3,"iterationCount":1,"delay":0,"fillMode":kony.anim.FORWARDS	};
-  	//scale
-	var transformProp1 = kony.ui.makeAffineTransform();
-	transformProp1.scale(0.0,0.0); 
-	var transformProp2 = kony.ui.makeAffineTransform();
-	transformProp2.scale(0.5,0.5);
-	var transformProp3 = kony.ui.makeAffineTransform();
-	transformProp3.scale(1,1);
-	var animDefinitionOne = {0  : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp1},
-                           // 50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
-        					100 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp3}
-      						} ;
-  	var animDefinition = kony.ui.createAnimation(animDefinitionOne);
-	var finalAnimation = {definition: animDefinition, config: animConfig};
-	frmHome.segmentRestaurentList.setAnimations({visible: finalAnimation});
-//alert("setting onRowDisplay");
-  //frmHome.segmentRestaurentList.onRowDisplay=onRowDispListener;
-  kony.print("In row display");
-//frmName.segMain.onRowDisplay = onRowDispListener;
+function onRowDisplayFunction() {
+    var animConfig = {
+        "duration": 0.3,
+        "iterationCount": 1,
+        "delay": 0,
+        "fillMode": kony.anim.FORWARDS
+    };
+    //scale
+    var transformProp1 = kony.ui.makeAffineTransform();
+    transformProp1.scale(0.0, 0.0);
+    var transformProp2 = kony.ui.makeAffineTransform();
+    transformProp2.scale(0.5, 0.5);
+    var transformProp3 = kony.ui.makeAffineTransform();
+    transformProp3.scale(1, 1);
+    var animDefinitionOne = {
+        0: {
+            "anchorPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "transform": transformProp1
+        },
+        //  50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
+        100: {
+            "anchorPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "transform": transformProp3
+        }
+    };
+    var animDefinition = kony.ui.createAnimation(animDefinitionOne);
+    var finalAnimation = {
+        definition: animDefinition,
+        config: animConfig
+    };
+    frmHome.segmentRestaurentList.setAnimations({
+        visible: finalAnimation
+    });
+    //alert("setting onRowDisplay");
+    //frmHome.segmentRestaurentList.onRowDisplay=onRowDispListener;
+    kony.print("In row display");
+    //frmName.segMain.onRowDisplay = onRowDispListener;
 }
-function onRowDispListener(widget, state, currentRowContext, startRowContext, endRowContext)
-{
-  //alert
-  alert("\nonRowDispListener2");
+
+function onRowDispListener(widget, state, currentRowContext, startRowContext, endRowContext) {
+    //alert
+    alert("\nonRowDispListener2");
 }
-function onRowDispListener2(widget, state, currentRowContext, startRowContext, endRowContext)
-{
-	kony.print("\nwidget: " + widget);
-	kony.print("\nstate: " + state);
-	kony.print("\ncurrentRow:  " + currentRowContext + " \nsartRow: " + startRowContext + " \nendRow: " + endRowContext);
-	var animConfig = {"duration":0.1,"iterationCount":1,"delay":0,"fillMode":kony.anim.FILL_MODE_BOTH	};
-  	//scale
-	var transformProp1 = kony.ui.makeAffineTransform();
-	transformProp1.scale(0.5,0.5); 
-	var transformProp2 = kony.ui.makeAffineTransform();
-	transformProp2.scale(0.75,0.75);
-	var transformProp3 = kony.ui.makeAffineTransform();
-	transformProp3.scale(1,1);
-	var animDefinitionOne = {0  : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp1},
-                             50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
-        					100 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp3}
-      						} ;
-  	var animDefinition = kony.ui.createAnimation(animDefinitionOne);
-	var finalAnimation = {definition: animDefinition, config: animConfig};
-  var RI=0;
-  var animContext=[];
- // var  firstVisibleRow=(frmHome.Seg1.getFirstVisibleRow())[rowIndex];
- // var lastVisibleRow=(frmHome.Seg1.getLastVisibleRow())[rowIndex];
- // kony.print("first row:-"+firstVisibleRow);
- // kony.print("last row:-"+lastVisibleRow);
- /* for(var i=firstVisibleRow;i>0;i--){
+
+function onRowDispListener2(widget, state, currentRowContext, startRowContext, endRowContext) {
+    kony.print("\nwidget: " + widget);
+    kony.print("\nstate: " + state);
+    kony.print("\ncurrentRow:  " + currentRowContext + " \nsartRow: " + startRowContext + " \nendRow: " + endRowContext);
+    var animConfig = {
+        "duration": 0.1,
+        "iterationCount": 1,
+        "delay": 0,
+        "fillMode": kony.anim.FILL_MODE_BOTH
+    };
+    //scale
+    var transformProp1 = kony.ui.makeAffineTransform();
+    transformProp1.scale(0.5, 0.5);
+    var transformProp2 = kony.ui.makeAffineTransform();
+    transformProp2.scale(0.75, 0.75);
+    var transformProp3 = kony.ui.makeAffineTransform();
+    transformProp3.scale(1, 1);
+    var animDefinitionOne = {
+        0: {
+            "anchorPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "transform": transformProp1
+        },
+        50: {
+            "anchorPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "transform": transformProp2
+        },
+        100: {
+            "anchorPoint": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "transform": transformProp3
+        }
+    };
+    var animDefinition = kony.ui.createAnimation(animDefinitionOne);
+    var finalAnimation = {
+        definition: animDefinition,
+        config: animConfig
+    };
+    var RI = 0;
+    var animContext = [];
+    // var  firstVisibleRow=(frmHome.Seg1.getFirstVisibleRow())[rowIndex];
+    // var lastVisibleRow=(frmHome.Seg1.getLastVisibleRow())[rowIndex];
+    // kony.print("first row:-"+firstVisibleRow);
+    // kony.print("last row:-"+lastVisibleRow);
+    /* for(var i=firstVisibleRow;i>0;i--){
   	animContext.push({sectionIndex:0,rowIndex : i});
   }*/
-  var i=startRowContext["rowIndex"];
-  var j=endRowContext["rowIndex"];
-  kony.print("last row:-"+j);
-  i--;
-  for(;i>=0;i--){
-  	animContext.push({sectionIndex:0,rowIndex : i});
-  }
-  for(;j<14;j++){
-  	animContext.push({sectionIndex:0,rowIndex : j});
-  }
-	//var contextDef={sectionIndex:0,rowIndex : 1};						
-	//var	animContext = [contextDef];	
-	switch (state) {
-	case kony.segment.ADD:
-		//alert("ADD");
-        widget.animateRows({context: animContext, animation: finalAnimation});
+    var i = startRowContext["rowIndex"];
+    var j = endRowContext["rowIndex"];
+    kony.print("last row:-" + j);
+    i--;
+    for (; i >= 0; i--) {
+        animContext.push({
+            sectionIndex: 0,
+            rowIndex: i
+        });
+    }
+    for (; j < 14; j++) {
+        animContext.push({
+            sectionIndex: 0,
+            rowIndex: j
+        });
+    }
+    //var contextDef={sectionIndex:0,rowIndex : 1};						
+    //var	animContext = [contextDef];	
+    switch (state) {
+    case kony.segment.ADD:
+        //alert("ADD");
+        widget.animateRows({
+            context: animContext,
+            animation: finalAnimation
+        });
         break;
-	case kony.segment.UPDATE:
-      	//alert("UPDATE");
-      	 widget.animateRows({context: animContext, animation: finalAnimation});
-        break; 
-     case kony.segment.REMOVE:
-		//alert("REMOVE");
-		 widget.animateRows({context: animContext, animation: finalAnimation});
+    case kony.segment.UPDATE:
+        //alert("UPDATE");
+        widget.animateRows({
+            context: animContext,
+            animation: finalAnimation
+        });
         break;
-     case kony.segment.VISIBLE:
-     // alert("VISIBLE");
-       widget.animateRows({context: animContext, animation: finalAnimation});
+    case kony.segment.REMOVE:
+        //alert("REMOVE");
+        widget.animateRows({
+            context: animContext,
+            animation: finalAnimation
+        });
         break;
- 	default	:break;
-  }
+    case kony.segment.VISIBLE:
+        // alert("VISIBLE");
+        widget.animateRows({
+            context: animContext,
+            animation: finalAnimation
+        });
+        break;
+    default:
+        break;
+    }
 }
 /*
 function getTestOperation(){

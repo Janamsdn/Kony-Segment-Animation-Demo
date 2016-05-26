@@ -1,0 +1,25 @@
+{
+    "AS_Form_f00e3b0bc2a146b085655cd3fa9800ac": {
+        "id": "AS_Form_f00e3b0bc2a146b085655cd3fa9800ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFavorite",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b2a3f67b9cc04c0789d3251c370928c9"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ca119de57605427b8278c7c58950afa8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setGestureRecogniserToFrmfav",
+            "display": "setGestureRecogniserToFrmfav",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
