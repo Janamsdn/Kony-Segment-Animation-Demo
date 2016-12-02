@@ -36,25 +36,20 @@ function setRestaurents(){
 }
 
 function getAddRowAnim(){
-  var transObject1 = kony.ui.makeAffineTransform();
-	transObject1.translate(200, 0);
-	
-	var transObject2 = kony.ui.makeAffineTransform();
-	transObject2.translate(0, 0);
-  var transAnimDef = {
-    						"0": {
-        							"transform": transObject1,
-        							"stepConfig": {"timingFunction": kony.anim.LINEAR}
-    								},
-    						"100": {
-        							"transform": transObject2,
-        							"stepConfig": {"timingFunction": kony.anim.LINEAR}
-    								}
-							};
-  var animObj=kony.ui.createAnimation(transAnimDef);
-  var animConf={delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:1};
+  var transformProp1 = kony.ui.makeAffineTransform();
+ transformProp1.scale(0.0,0.0); 
+ var transformProp2 = kony.ui.makeAffineTransform();
+ transformProp2.scale(0.5,0.5);
+ var transformProp3 = kony.ui.makeAffineTransform();
+ transformProp3.scale(1,1);
+ var animDefinitionOne = {0  : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp1},
+                           // 50 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp2},
+             100 : {"anchorPoint":{"x":0.5,"y":0.5},"transform":transformProp3}
+            } ;
+  var animObj=kony.ui.createAnimation(animDefinitionOne);
+  var animConf={delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:0.7};
   var addRowAnimtion = { definition : animObj, config : animConf, callbacks : null };
-	return addRowAnimtion;
+ return addRowAnimtion;
 }
 function setGestureRecogniserToFrmHome(){
   var segTemp=frmHome.segmentRestaurentList.rowTemplate;
